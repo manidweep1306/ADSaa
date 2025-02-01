@@ -58,6 +58,7 @@ public class BFTDFTList{
         addEdge(adj, 0, 4);
         addEdge(adj, 3, 5);
         addEdge(adj, 1, 2);
+        addEdge(adj, 3, 2);
         System.out.println("BFS: ");  
         BFT(adj);
         System.out.println("\nDFS: ");
